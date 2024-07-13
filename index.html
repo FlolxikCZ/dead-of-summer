@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead of Summer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #e74c3c;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #f2f2f2;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        .section-title {
+            color: #e74c3c;
+        }
+        .postavy, .kapitoly {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .postava, .kapitola {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1 1 calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .postava h3, .kapitola h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dead of Summer</h1>
+    </header>
+    <nav>
+        <a href="#about">O seriálu</a>
+        <a href="#postavy">Postavy</a>
+        <a href="#kapitoly">Kapitoly</a>
+    </nav>
+    <section id="about">
+        <h2 class="section-title">O seriálu</h2>
+        <p>"Dead of Summer" je americký hororový televizní seriál, který se odehrává v 80. letech v letním táboře. Seriál sleduje skupinu poradců, kteří odhalují temná a nadpřirozená tajemství táboru, která přináší hrůzu a nebezpečí.</p>
+    </section>
+    <section id="postavy">
+        <h2 class="section-title">Postavy</h2>
+        <div class="postavy">
+            <div class="postava">
+                <h3>Amy Hughes</h3>
+                <p>Nová poradkyně v letním táboře, která se snaží uniknout své temné minulosti.</p>
+            </div>
+            <div class="postava">
+                <h3>Alex Powell</h3>
+                <p>Charismatický a sebevědomý poradce s tajemstvím.</p>
+            </div>
+            <div class="postava">
+                <h3>Deb Carpenter</h3>
+                <p>Vedoucí tábora, která ví více, než dává najevo.</p>
+            </div>
+        </div>
+    </section>
+    <section id="kapitoly">
+        <h2 class="section-title">Kapitoly</h2>
+        <div class="kapitoly">
+            <div class="kapitola">
+                <h3>Kapitola 1</h3>
+                <p>Úvod do táborového života a první náznaky temného tajemství.</p>
+            </div>
+            <div class="kapitola">
+                <h3>Kapitola 2</h3>
+                <p>Postavy se začínají seznamovat a objevují se první problémy.</p>
+            </div>
+            <div class="kapitola">
+                <h3>Kapitola 3</h3>
+                <p>Napětí stoupá, když je odhaleno více o minulosti tábora.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Dead of Summer Fan Page
+    </footer>
+</body>
+</html>
